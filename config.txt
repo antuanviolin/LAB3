@@ -1,0 +1,3 @@
+mute 10 20
+mute 30 60
+gluing $2 70
