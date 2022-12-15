@@ -1,10 +1,11 @@
-#include "soundProcessor.h"
+#include "SoundProcessor.h"
 
 int main(int argc, char **argv) {
-    std::string files[argc - 2];
-    for (int i = 0; i < argc - 2; ++i) {
-        files[i] = argv[i + 2];
+    const size_t DEFAULTARG = 2;
+    std::string files[argc - DEFAULTARG];
+    for (int i = 0; i < argc - DEFAULTARG; ++i) {
+        files[i] = argv[i + DEFAULTARG];
     }
-    soundProcessor(files);
+    soundProcessor::SoundProcessor(files);
     return 0;
 }

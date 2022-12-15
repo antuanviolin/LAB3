@@ -3,4 +3,4 @@ project(Lab3)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Lab3 main.cpp readWAV.cpp readWAV.h writeWAV.cpp writeWAV.h converters.cpp converters.h readConfig.cpp readConfig.h soundProcessor.cpp convertersFactory.cpp convertersFactory.h soundProcessor.h sample.h wavHeader.h)
+add_executable(Lab3 main.cpp ReadWAV.cpp ReadWAV.h WriteWAV.cpp WriteWAV.h Converters.cpp Converters.h ReadConfig.cpp ReadConfig.h SoundProcessor.cpp ConvertersFactory.cpp ConvertersFactory.h SoundProcessor.h sample.h SampleClass.cpp SampleClass.h)
